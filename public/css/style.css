@@ -10,7 +10,16 @@
 * 	Template Style 
 *
 * ======================================================= */
-
+.subir-archivo-section {
+  margin-top: 50px;
+  text-align: center;
+}
+.archivo-wrap {
+  display: flex;
+  width: 50%;
+  transform: translate(50%,0%);
+  align-items: center;
+}
 body {
   font-family: "Inconsolata", Arial, sans-serif;
   font-weight: 400;

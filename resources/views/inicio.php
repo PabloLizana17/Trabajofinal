@@ -86,17 +86,21 @@ unlink('AP_relleno2.txt');
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Trabajo 3</h2>
-					<p>En la siguiente pagina se podra observar el desarrollo de la segunda actividad a evaluar, la cual posee las siguientes exigencias:
-						<ul align = "justify">
-							<li>Ingresar 1 AFD o 2 AP a la aplicación</li>
-							<li>A partir de los autómatas ingresados, debe:
-								<ul>
-									<li>Obtener la ER para el AFD</li>
-									<li>Obtener la unión y concatenación para los 2 AP.</li>
-								</ul>
-							</li>
-						</ul>
-					</p>
+						<div class="subir-archivo-section">
+							<div class="descripcion-title">Seleccione el archivo de texto plano</div>
+							<div class="archivo-wrap">
+							<div class="subir-archivo">
+								<p id="mensajes"></p><br>
+                    			<textarea id="contenido" cols="30" rows="10"></textarea>
+                			</div>
+                			<div class="subir-archivo">
+
+                    			<p>&nbsp;<input type="file" id="archivoTexto"><br><br></p>
+                    			<p>&nbsp;Este cuadro de texto es solo referencial, servir&aacute para corroborar que la informaci&oacuten ingresada sea efectivamente la que usted ingres&oacute.</p>
+                    			<p></p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row animate-box">	
