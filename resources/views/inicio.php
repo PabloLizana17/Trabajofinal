@@ -71,8 +71,8 @@ unlink('AP_relleno2.txt');
 						<ul>
 							<li><a href="index.html">Trabajo 1</a></li>
 							<li ><a href="portfolio.html">Trabajo 2</a></li>
-							<li class="active"><a href="blog.html">Trabajo 3</a></li>
-							<li ><a href="about.html">Trabajo 4</a></li>
+							<li ><a href="blog.html">Trabajo 3</a></li>
+							<li class="active"> <a href="about.html">Trabajo Integral</a></li>
 						</ul>
 					</div>
 				</div>
@@ -103,13 +103,7 @@ unlink('AP_relleno2.txt');
 					</div>
 				</div>
 			</div>
-			<div class="row animate-box">	
-				<div class="col-md-6 col-md-offset-3 text-center heading-section">
-					<h3>Demostracion</h3>
-					<p align = "justify">Eliga su Opción:</p>
-					<p> <a href="afd"><input type="button" value="AFD"></a> o <a href="ap"><input type="button" value="AP"></a> </p>
-				<div>
-			</div>
+
 		</div>
 	</div>
  
