@@ -85,7 +85,7 @@ unlink('AP_relleno2.txt');
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Trabajo 3</h2>
+					<h2>Trabajo Integral</h2>
 						<div class="subir-archivo-section">
 							<div class="descripcion-title">Seleccione el archivo de texto plano</div>
 							<div class="archivo-wrap">
