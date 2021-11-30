@@ -47,5 +47,23 @@
         return $orden;
     }
 
+    function menor_a_mayor($demandas)
+    {
+        for($i=0;$i<count($demandas);$i++)
+        {
+            for($j=0;$j<count($demandas)-1;$j++)
+            {
+                if($demandas[$j]["Distancia"]>$demandas[$j+1]["Distancia"])
+                {
+                    $aux = $demandas[$j];
+                    $demandas[$j] = $demandas[$j+1];
+                    $demandas[$j+1] = $aux;
+                }
+            }
+        }
+        return $demandas;
+    }
+
+
 
 ?>
