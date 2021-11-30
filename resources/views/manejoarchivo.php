@@ -7,7 +7,6 @@
 
     function lectura_archivo($archivo)
     {
-        Log::info("lectura de archivo iniciada");
 
         $fp = fopen ($archivo,"r");
         $i = 0 ;
@@ -23,6 +22,7 @@
     function distribucion($archivo)
     {   
         $datos = array();
+        Log::info("lectura de archivo iniciada");
         $data = lectura_archivo($archivo);
         for($i=0 ; $i<sizeof($data) ; $i++)
         {
@@ -97,5 +97,47 @@
         }
         return $datos;
     }
+
+    function demandas($archivo)
+    {
+        log::info("lectura de archivo iniciada");
+        $datos = array();
+        $data = lectura_archivo($archivo);
+        for($i=0 ; $i<sizeof($data) ; $i++)
+        {
+            $cont = 0;
+            $numero = '';
+            $d = array();
+            while($data[$i][$cont]!= ";")
+            {   
+                $numero = $numero.$data[$i][$cont];
+                $cont++;
+            }
+            $d['c'] = intval($numero);
+            $cont++;
+            $numero = '';
+            while($data[$i][$cont]!= ";")
+            {
+                $numero = $numero.$data[$i][$cont];
+                $cont++;
+            }
+            $d['p'] = intval($numero);
+            $cont++;
+            $numero = '';
+            log::info("demandas: ".$d['c']." ".$d['p']);
+            while(strlen($data[$i])>$cont)
+            {
+                $numero = $numero.$data[$i][$cont];
+                $cont++;
+            }
+            $d['cantidad'] = intval($numero);
+            log::info("cantidad de demanda: ".$d['cantidad']);
+            $datos[$i] = $d;
+        }
+        
+        return $datos;
+    }
+
+
     
     ?>

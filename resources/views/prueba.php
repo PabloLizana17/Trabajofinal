@@ -1,4 +1,5 @@
 <?php
 require("manejoarchivo.php");
 $data = distribucion('coordenadas.txt');
-print_r($data);
+$demanda = demandas('demandas.txt');
+print_r($demanda);
