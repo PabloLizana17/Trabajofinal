@@ -10,16 +10,13 @@
         $distancia = sqrt(pow(($x2-$x1),2)+pow(($y2-$y1),2));
         $distancia = bcdiv($distancia, '1', 5);
         return $distancia;
-    
-
     }
 
     function ordenar($demandas,$data)
     {
         for($i=0;$i<count($demandas);$i++)
         {
-        $demandas[$i]["Distancia"] = distancia($data['p'][$demandas[$i]['p']],$data['c'][$demandas[$i]['c']]);
-      
+            $demandas[$i]["Distancia"] = distancia($data['p'][$demandas[$i]['p']],$data['c'][$demandas[$i]['c']]);
         }
 
         return $demandas;
@@ -63,6 +60,7 @@
         }
         return $demandas;
     }
+
   /* function caminos($demandas,$data)
     {
         $demandas = menor_a_mayor($demandas);
@@ -71,18 +69,31 @@
         $camino["escrito"]= "C".$demandas[0]["c"]."-P".$demandas[0]["p"];
         $camino["ultimo"] = $demandas[0]["p"];
         array_push($camino,$caminos);
-       for($i=1;$i<count($demandas);$i++)
-       {
-           for($j=0;$j<count($caminos);$j++)
-           {
+        for($i=1;$i<count($demandas);$i++)
+        {
+            for($j=0;$j<count($caminos);$j++)
+            {
                 if($demandas[$i]["distancia"]>distancia($data["c"][$demandas[$i]["p"]],$data["c"][$caminos[$j]["ultimo"]]))
                 {
                     
                 }
-           }"
-       }
+            }"
+        }
     }
-
 */
+    function matrizdistancia($data)
+    {
+        $matriz=array();
+
+        foreach(array_keys($data["c"]) as $a)
+        {
+            foreach(array_keys($data["p"]) as $e)
+            {
+                $matriz[$a][$e]=0;
+            }
+        }
+
+        print_r($matriz);
+    }
 
 ?>

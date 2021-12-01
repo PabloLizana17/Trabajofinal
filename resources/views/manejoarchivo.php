@@ -11,12 +11,13 @@
         $fp = fopen ($archivo,"r");
         $i = 0 ;
         $datos = array();
-        while (!feof($fp)){
+        while (!feof($fp))
+        {
             $linea = fgets($fp);
             array_push($datos,$linea);
         }
         
-            return $datos;
+        return $datos;
     }          
 
     function distribucion($archivo)
