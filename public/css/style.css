@@ -45,10 +45,10 @@ a{
 .izquierda {
     width: 45%;
     float: left;
-    height: 1100px;
+    height: 500px;
     background-color:	#9DBAD5;
     border-radius: 25px;
-    margin-top: 30px;
+    margin-top: 630px;
     margin-left: 70px;
 }
 #centro{
@@ -62,21 +62,42 @@ a{
     width: 45%;
     float: left;
     background-color: 	#9DBAD5;
-    height: 1100px;
+    height: 500px;
     border-radius: 25px;
     margin-right: 70px;
-    margin-top: 30px;
+    margin-top: 630px;
 }
-#texto{
+.derecha p{
     margin-left: 30px;
     margin-top: 30px;
 }
-#foto{
+.derecha img{
     width: 45%;
     margin-left: 30px;
-    margin-top: 750px;
+    margin-top: 115px;
+    
 }
-#archivo {
+.derecha input{
     margin-left: 600px;
-    margin-bottom: 1000px;
+    align-items: center;
+
+}
+.box {
+    display: inline-block;
+}
+.izquierda p{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.izquierda img{
+    width: 45%;
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+.izquierda input{
+    margin-left: 600px;
+    align-items: center;
+    
 }
