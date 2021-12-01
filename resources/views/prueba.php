@@ -6,13 +6,13 @@ $distancia = distancia($data['p'][1],$data['c'][1]);
 $demanda = ordenar($demanda,$data);
 $ordenar = separar($demanda,$data);
 
-$demanda = menor_a_mayor($demanda);
+//$demanda = menor_a_mayor($demanda);
 
 //print_r($data);
 
-//print_r($demanda);
+print_r($demanda);
 
-matrizdistancia($data);
+print_r(matrizdistancia($data));
 
 
 

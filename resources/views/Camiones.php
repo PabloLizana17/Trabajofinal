@@ -101,7 +101,41 @@
             }
         }
 
-        print_r($matriz);
+       return $matriz;
     }
+
+    function camiones($demanda,$data)
+    {
+        $matriz=matrizdistancia($data);
+        $camiones=1;
+        $texto="";
+        $demandasC=0;
+
+        do
+        {
+            //log::info()
+
+            $texto=$texto."Camion: ".$camiones;
+
+            $c=$demanda[$demandasC]["c"];
+            $p=$demanda[$demandasC]["p"];
+            
+            
+
+            foreach($demanda as $i)
+            {
+                $a=1;
+                if($i["cantidad"]!=0)
+                {
+                    $a=0;
+                    break;
+                }
+            }
+        }while($a==0);
+
+        return $texto;
+        
+    }
+    
 
 ?>

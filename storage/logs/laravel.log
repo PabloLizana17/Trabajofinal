@@ -2849,3 +2849,78 @@
 [2021-12-01 19:40:01] local.INFO: cantidad de demanda: 391  
 [2021-12-01 19:40:01] local.INFO: demandas: 3 1  
 [2021-12-01 19:40:01] local.INFO: cantidad de demanda: 21  
+[2021-12-01 19:51:59] local.INFO: lectura de archivo iniciada  
+[2021-12-01 19:51:59] local.INFO: Punto 1: 10 6  
+[2021-12-01 19:51:59] local.INFO: Punto 2: -1 -96  
+[2021-12-01 19:51:59] local.INFO: Punto 3: 60 13  
+[2021-12-01 19:51:59] local.INFO: Punto 4: 20 300  
+[2021-12-01 19:51:59] local.INFO: cordenadas de c: -2 77  
+[2021-12-01 19:51:59] local.INFO: cordenadas de c: 5 48  
+[2021-12-01 19:51:59] local.INFO: cordenadas de c: 90 -759006  
+[2021-12-01 19:51:59] local.INFO: lectura de archivo iniciada  
+[2021-12-01 19:51:59] local.INFO: demandas: 1 1  
+[2021-12-01 19:51:59] local.INFO: cantidad de demanda: 230  
+[2021-12-01 19:51:59] local.INFO: demandas: 1 2  
+[2021-12-01 19:51:59] local.INFO: cantidad de demanda: 391  
+[2021-12-01 19:51:59] local.INFO: demandas: 3 1  
+[2021-12-01 19:51:59] local.INFO: cantidad de demanda: 21  
+[2021-12-01 19:52:30] local.INFO: lectura de archivo iniciada  
+[2021-12-01 19:52:30] local.INFO: Punto 1: 10 6  
+[2021-12-01 19:52:30] local.INFO: Punto 2: -1 -96  
+[2021-12-01 19:52:30] local.INFO: Punto 3: 60 13  
+[2021-12-01 19:52:30] local.INFO: Punto 4: 20 300  
+[2021-12-01 19:52:30] local.INFO: cordenadas de c: -2 77  
+[2021-12-01 19:52:30] local.INFO: cordenadas de c: 5 48  
+[2021-12-01 19:52:30] local.INFO: cordenadas de c: 90 -759006  
+[2021-12-01 19:52:30] local.INFO: lectura de archivo iniciada  
+[2021-12-01 19:52:30] local.INFO: demandas: 1 1  
+[2021-12-01 19:52:30] local.INFO: cantidad de demanda: 230  
+[2021-12-01 19:52:30] local.INFO: demandas: 1 2  
+[2021-12-01 19:52:30] local.INFO: cantidad de demanda: 391  
+[2021-12-01 19:52:30] local.INFO: demandas: 3 1  
+[2021-12-01 19:52:30] local.INFO: cantidad de demanda: 21  
+[2021-12-01 21:00:33] local.INFO: lectura de archivo iniciada  
+[2021-12-01 21:00:33] local.INFO: Punto 1: 10 6  
+[2021-12-01 21:00:33] local.INFO: Punto 2: -1 -96  
+[2021-12-01 21:00:33] local.INFO: Punto 3: 60 13  
+[2021-12-01 21:00:33] local.INFO: Punto 4: 20 300  
+[2021-12-01 21:00:33] local.INFO: cordenadas de c: -2 77  
+[2021-12-01 21:00:33] local.INFO: cordenadas de c: 5 48  
+[2021-12-01 21:00:33] local.INFO: cordenadas de c: 90 -759006  
+[2021-12-01 21:00:33] local.INFO: lectura de archivo iniciada  
+[2021-12-01 21:00:33] local.INFO: demandas: 1 1  
+[2021-12-01 21:00:33] local.INFO: cantidad de demanda: 230  
+[2021-12-01 21:00:33] local.INFO: demandas: 1 2  
+[2021-12-01 21:00:33] local.INFO: cantidad de demanda: 391  
+[2021-12-01 21:00:33] local.INFO: demandas: 3 1  
+[2021-12-01 21:00:33] local.INFO: cantidad de demanda: 21  
+[2021-12-01 21:23:26] local.INFO: lectura de archivo iniciada  
+[2021-12-01 21:23:26] local.INFO: Punto 1: 10 6  
+[2021-12-01 21:23:26] local.INFO: Punto 2: -1 -96  
+[2021-12-01 21:23:26] local.INFO: Punto 3: 60 13  
+[2021-12-01 21:23:26] local.INFO: Punto 4: 20 300  
+[2021-12-01 21:23:26] local.INFO: cordenadas de c: -2 77  
+[2021-12-01 21:23:26] local.INFO: cordenadas de c: 5 48  
+[2021-12-01 21:23:26] local.INFO: cordenadas de c: 90 -759006  
+[2021-12-01 21:23:26] local.INFO: lectura de archivo iniciada  
+[2021-12-01 21:23:26] local.INFO: demandas: 1 1  
+[2021-12-01 21:23:26] local.INFO: cantidad de demanda: 230  
+[2021-12-01 21:23:26] local.INFO: demandas: 1 2  
+[2021-12-01 21:23:26] local.INFO: cantidad de demanda: 391  
+[2021-12-01 21:23:26] local.INFO: demandas: 3 1  
+[2021-12-01 21:23:26] local.INFO: cantidad de demanda: 21  
+[2021-12-01 21:28:01] local.INFO: lectura de archivo iniciada  
+[2021-12-01 21:28:01] local.INFO: Punto 1: 10 6  
+[2021-12-01 21:28:01] local.INFO: Punto 2: -1 -96  
+[2021-12-01 21:28:01] local.INFO: Punto 3: 60 13  
+[2021-12-01 21:28:01] local.INFO: Punto 4: 20 300  
+[2021-12-01 21:28:01] local.INFO: cordenadas de c: -2 77  
+[2021-12-01 21:28:01] local.INFO: cordenadas de c: 5 48  
+[2021-12-01 21:28:01] local.INFO: cordenadas de c: 90 -759006  
+[2021-12-01 21:28:01] local.INFO: lectura de archivo iniciada  
+[2021-12-01 21:28:01] local.INFO: demandas: 1 1  
+[2021-12-01 21:28:01] local.INFO: cantidad de demanda: 230  
+[2021-12-01 21:28:01] local.INFO: demandas: 1 2  
+[2021-12-01 21:28:01] local.INFO: cantidad de demanda: 391  
+[2021-12-01 21:28:01] local.INFO: demandas: 3 1  
+[2021-12-01 21:28:01] local.INFO: cantidad de demanda: 21  
