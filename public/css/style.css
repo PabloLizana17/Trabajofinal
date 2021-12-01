@@ -94,10 +94,11 @@ a{
     width: 45%;
     margin-left: 30px;
     margin-top: 5px;
+    float:left;
     
 }
 .izquierda input{
-    margin-left: 600px;
-    align-items: center;
-    
+    width: 400px;
+    margin-left: 110px;
+    margin-top: 135px;
 }
