@@ -19,6 +19,39 @@
             <li><a href="https://github.com/PabloLizana17/Trabajofinal">Trabajo Integral</a></li>
         </ul>
     </div>
+    <div class="descripcion">
+        <p>
+            <br>En la siguiente aplicac&iacute;on desarrollaremos una un sistema el cual se encarga de optimizar la ruta de reparto de una empresa, esta se encarga de minimizando las distancias
+            totales (km) recorridos por todos los camiones diariamente.<br>
+            Se debe considerar que: <br><br>
+            <ul>
+                <li>Las coordenadas GPS se deberán usar, por facilidad, como coordenadas X,Y enteras.<br></li>
+                <li>Las coordenadas GPS deben ser cargadas en un archivo de parámetros, según especificación indicada
+                    más adelante. Similar debe ser con el archivo de demandas descrito más adelante.<br></li>
+                <li>La cantidad de camiones es variable (básicamente el software debería calcular indirectamente la
+                    cantidad de camiones). Asuma que existe una flota infinita de camiones (no hay límite de cantidad y
+                    dependerá netamente del resultado de rutas)</li>
+                <li>La capacidad máxima de productos por camión es 1000. Un camión no puede transportar
+                    “fracciones” de productos, mientras que un punto de venta puede ser abastecido diariamente sólo
+                    por un camión (es decir, los camiones no pueden hacer despachos “a medias). No obstante, un
+                    camión puede abastecer varios puntos de venta (siempre cuando sean pedidos “completos”).</li>
+            </ul>
+        </p>
+        <p>
+            Recuerde leer bien la informacion de los cuadros de abajo, una vez terminado de leer recuerde subir ambos archivos para un correcto funcionamiento.
+        </p>
+        <form action="archivo.php" method="POST">
+            <p id = derecha>Archivo 1:</p>
+            <input type="File" name="Archivo1">
+            <br>
+            <br>
+            <p id="derecha">Archivo 2:</p>
+            <input type="File" name="Archivo2">
+            <br><br><br>
+            <input type="submit" name="btnsubir" value="Subir archivos">
+        </form>
+
+    </div>
     <div class="cuerpo">
         <div class="izquierda">
             <div class="box">
@@ -31,9 +64,7 @@
                 <div id="foto">
                     <img src="../../public/img/Screenshot_11.png" alt="Ingreso de datos">
                 </div>
-                <div id="archivo">
-                    <input type="file" id="archivoTexto1">
-                </div>
+
             </div>
         </div>
         <div id="centro"></div>
@@ -48,9 +79,7 @@
                 <div>
                     <img src="../../public/img/Screenshot_2.png" alt="Ingreso de datos">
                 </div>
-                <div>
-                    <input type="file" id="archivoTexto2">
-                </div>
+
             </div>
         </div>
     </div>
