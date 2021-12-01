@@ -93,6 +93,14 @@
             }
         }
 
+        foreach(array_keys($data["c"]) as $a)
+        {
+            foreach(array_keys($data["p"]) as $e)
+            {
+                $matriz[$a][$e]=distancia($data["c"][$a],$data["p"][$e]);
+            }
+        }
+
         print_r($matriz);
     }
 
