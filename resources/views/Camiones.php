@@ -63,7 +63,26 @@
         }
         return $demandas;
     }
+  /* function caminos($demandas,$data)
+    {
+        $demandas = menor_a_mayor($demandas);
+        $caminos = array();
+        $camino = array();
+        $camino["escrito"]= "C".$demandas[0]["c"]."-P".$demandas[0]["p"];
+        $camino["ultimo"] = $demandas[0]["p"];
+        array_push($camino,$caminos);
+       for($i=1;$i<count($demandas);$i++)
+       {
+           for($j=0;$j<count($caminos);$j++)
+           {
+                if($demandas[$i]["distancia"]>distancia($data["c"][$demandas[$i]["p"]],$data["c"][$caminos[$j]["ultimo"]]))
+                {
+                    
+                }
+           }"
+       }
+    }
 
-
+*/
 
 ?>

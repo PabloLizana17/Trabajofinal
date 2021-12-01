@@ -7,7 +7,7 @@ $demanda = ordenar($demanda,$data);
 $ordenar = separar($demanda,$data);
 
 
-print_r(menor_a_mayor($ordenar[1]));
+print_r($demanda);
 
 
 
