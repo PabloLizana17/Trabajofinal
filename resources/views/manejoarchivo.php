@@ -4,12 +4,11 @@
     use Illuminate\Support\Facades\Log;  //Para registrar en el log
 
 
-
+    
     function lectura_archivo($archivo)
     {
 
         $fp = fopen ($archivo,"r");
-        $i = 0 ;
         $datos = array();
         while (!feof($fp))
         {

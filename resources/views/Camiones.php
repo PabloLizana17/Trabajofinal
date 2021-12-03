@@ -26,7 +26,7 @@
     }
 
 
-    function separar($demandas,$data)
+    function separar($demandas)
     {
         $orden=array();
         $orden["centros"]=array();
@@ -78,11 +78,11 @@
        for($i=1;$i<count($demandas);$i++)
         {
             
-           if($demandas[$i]["Distancia"]>distancia($data["p"][$demandas[$i]["p"]],$data["p"][$camino["ultimo"]]) and $demandas[$i]["Distancia"]+$camino["cantidad"]<1000)
+           if($demandas[$i]["Distancia"]>distancia($data["p"][$demandas[$i]["p"]],$data["p"][$camino["ultimo"]]) && $demandas[$i]["Distancia"]+$camino["cantidad"]<1000)
                 {
                     $camino["ultimo"]= $demandas[$i];
                     $camino ["escrito"]= $camino ["escrito"]."-P".$demandas[$i]["p"];
-                    $camino["distancia"] = $camino["distancia"]+$demandas[$i]["Distancia"];; 
+                    $camino["distancia"] = $camino["distancia"]+$demandas[$i]["Distancia"];
                     $camino["cantidad"] = $camino["cantidad"] + $demandas[$i]["cantidad"];
                 }
             else
