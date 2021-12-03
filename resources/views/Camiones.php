@@ -66,27 +66,27 @@
         $demandas = menor_a_mayor($demandas);
         $caminos = array();
         $camino = array();
-        $camino["escrito"]= "P".$demandas[0]["p"]."-C".$demandas[0]["c"];
-        $camino["ultimo"] = $demandas[0]["c"];
+        $camino["escrito"]= "C".$demandas[0]["c"]."-P".$demandas[0]["p"];
+        $camino["ultimo"] = $demandas[0]["p"];
         $camino["distancia"] = $demandas[0]["Distancia"];
         $camino["cantidad"] = $demandas[0]["cantidad"];
         
        for($i=1;$i<count($demandas);$i++)
         {
             
-           if($demandas[$i]["Distancia"]>distancia($data["c"][$demandas[$i]["c"]],$data["c"][$camino["ultimo"]]) and $demandas[$i]["Distancia"]+$camino["cantidad"]<1000)
+           if($demandas[$i]["Distancia"]>distancia($data["p"][$demandas[$i]["p"]],$data["p"][$camino["ultimo"]]) and $demandas[$i]["Distancia"]+$camino["cantidad"]<1000)
                 {
                     $camino["ultimo"]= $demandas[$i];
-                    $camino ["escrito"]= $camino ["escrito"]."-C".$demandas[$i]["c"];
+                    $camino ["escrito"]= $camino ["escrito"]."-P".$demandas[$i]["p"];
                     $camino["distancia"] = $camino["distancia"]+$demandas[$i]["Distancia"];; 
-                    $camino["cantidad"] = $camino["cantidad"]+ $demandas[$i]["cantidad"];
+                    $camino["cantidad"] = $camino["cantidad"] + $demandas[$i]["cantidad"];
                 }
             else
             {
                 array_push($caminos,$camino);
                 $camino = array();
-                $camino["escrito"]= "P".$demandas[$i]["p"]."-C".$demandas[$i]["c"];
-                $camino["ultimo"] = $demandas[$i]["c"];
+                $camino["escrito"]= "C".$demandas[$i]["c"]."-P".$demandas[$i]["p"];
+                $camino["ultimo"] = $demandas[$i]["p"];
                 $camino["distancia"] = $demandas[$i]["Distancia"];
                 $camino["cantidad"] = $demandas[$i]["Cantidad"];
             }
@@ -97,6 +97,24 @@
     }
 
 
+    function Resultados($demandas, $data)
+    {
+        $resultados = array();
+        for($i=0;$i<count($demandas['centros']);$i++)
+        {
+            array_push($resultados,caminos($demandas[$demandas['centros'][$i]],$data));
+        }
+        $aux = array();
+        for($i=0;$i<count($resultados);$i++)
+        {
+            for($j=0;$j<count($resultados[$i]);$j++)
+            {
+                array_push($aux,$resultados[$i][$j]);
+            }
+        }
+
+        return $aux;
+    }
 
 
 
