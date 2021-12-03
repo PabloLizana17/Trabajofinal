@@ -60,26 +60,44 @@
         }
         return $demandas;
     }
-/*
+
     function caminos($demandas,$data)
     {
         $demandas = menor_a_mayor($demandas);
         $caminos = array();
         $camino = array();
-        $camino["escrito"]= "C".$demandas[0]["c"]."-P".$demandas[0]["p"];
-        $camino["ultimo"] = $demandas[0]["p"];
-        array_push($camino,$caminos);
-        for($i=1;$i<count($demandas);$i++)
+        $camino["escrito"]= "P".$demandas[0]["p"]."-C".$demandas[0]["c"];
+        $camino["ultimo"] = $demandas[0]["c"];
+        $camino["distancia"] = $demandas[0]["Distancia"];
+        $camino["cantidad"] = $demandas[0]["cantidad"];
+        
+       for($i=1;$i<count($demandas);$i++)
         {
-            for($j=0;$j<count($caminos);$j++)
-            {
-                if($demandas[$i]["distancia"]>distancia($data["c"][$demandas[$i]["p"]],$data["c"][$caminos[$j]["ultimo"]]))
+            
+           if($demandas[$i]["Distancia"]>distancia($data["c"][$demandas[$i]["c"]],$data["c"][$camino["ultimo"]]) and $demandas[$i]["Distancia"]+$camino["cantidad"]<1000)
                 {
-                    
+                    $camino["ultimo"]= $demandas[$i];
+                    $camino ["escrito"]= $camino ["escrito"]."-C".$demandas[$i]["c"];
+                    $camino["distancia"] = $camino["distancia"]+$demandas[$i]["Distancia"];; 
+                    $camino["cantidad"] = $camino["cantidad"]+ $demandas[$i]["cantidad"];
                 }
-            }"
+            else
+            {
+                array_push($caminos,$camino);
+                $camino = array();
+                $camino["escrito"]= "P".$demandas[$i]["p"]."-C".$demandas[$i]["c"];
+                $camino["ultimo"] = $demandas[$i]["c"];
+                $camino["distancia"] = $demandas[$i]["Distancia"];
+                $camino["cantidad"] = $demandas[$i]["Cantidad"];
+            }
         }
+        array_push($caminos,$camino);
+        return $caminos;
+
     }
-*/
+
+
+
+
 
 ?>
