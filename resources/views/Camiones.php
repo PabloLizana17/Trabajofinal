@@ -60,8 +60,8 @@
         }
         return $demandas;
     }
-
-  /* function caminos($demandas,$data)
+/*
+    function caminos($demandas,$data)
     {
         $demandas = menor_a_mayor($demandas);
         $caminos = array();
@@ -81,61 +81,5 @@
         }
     }
 */
-    function matrizdistancia($data)
-    {
-        $matriz=array();
-
-        foreach(array_keys($data["c"]) as $a)
-        {
-            foreach(array_keys($data["p"]) as $e)
-            {
-                $matriz[$a][$e]=0;
-            }
-        }
-
-        foreach(array_keys($data["c"]) as $a)
-        {
-            foreach(array_keys($data["p"]) as $e)
-            {
-                $matriz[$a][$e]=distancia($data["c"][$a],$data["p"][$e]);
-            }
-        }
-
-       return $matriz;
-    }
-
-    function camiones($demanda,$data)
-    {
-        $matriz=matrizdistancia($data);
-        $camiones=1;
-        $texto="";
-        $demandasC=0;
-
-        do
-        {
-            //log::info()
-
-            $texto=$texto."Camion: ".$camiones;
-
-            $c=$demanda[$demandasC]["c"];
-            $p=$demanda[$demandasC]["p"];
-            
-            
-
-            foreach($demanda as $i)
-            {
-                $a=1;
-                if($i["cantidad"]!=0)
-                {
-                    $a=0;
-                    break;
-                }
-            }
-        }while($a==0);
-
-        return $texto;
-        
-    }
-    
 
 ?>

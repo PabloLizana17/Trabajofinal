@@ -8,11 +8,11 @@ $ordenar = separar($demanda,$data);
 
 //$demanda = menor_a_mayor($demanda);
 
-//print_r($data);
-
 print_r($demanda);
+echo "<br>;
+print_r($ordenar);
 
-print_r(matrizdistancia($data));
+
 
 
 
