@@ -9,7 +9,9 @@
         $y2 = $punto2["y"];
         $distancia = sqrt(pow(($x2-$x1),2)+pow(($y2-$y1),2));
         $distancia = bcdiv($distancia, '1', 5);
+        log::info("Distancia calculada");
         return $distancia;
+        
     }
 
     function ordenar($demandas,$data)
@@ -18,6 +20,7 @@
         {
             $demandas[$i]["Distancia"] = distancia($data['p'][$demandas[$i]['p']],$data['c'][$demandas[$i]['c']]);
         }
+        log::info("Demandas ordenadas");
 
         return $demandas;
     }
@@ -40,7 +43,7 @@
         {
             array_push($orden[$demandas[$i]["c"]],$demandas[$i]);
         }
-
+        log::info("Demandas separadas");
         return $orden;
     }
 
@@ -58,6 +61,7 @@
                 }
             }
         }
+        log::info("Demandas ordenadas");
         return $demandas;
     }
 
@@ -92,6 +96,7 @@
             }
         }
         array_push($caminos,$camino);
+        log::info("Caminos generados");
         return $caminos;
 
     }
@@ -112,6 +117,7 @@
                 array_push($aux,$resultados[$i][$j]);
             }
         }
+        log::info("Resultados generados, imprimiendo");
 
         return $aux;
     }

@@ -7,29 +7,7 @@ $demanda = ordenar($demanda,$data);
 $ordenar = separar($demanda,$data);
 $caminos = resultados($ordenar,$data);
 
-//$demanda = menor_a_mayor($demanda);
-//print_r($data);
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-//print_r($demanda);
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-//print_r($ordenar);
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-print_r($caminos);
+
 
 
 
