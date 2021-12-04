@@ -6792,3 +6792,30 @@
 [2021-12-03 21:52:50] local.INFO: Demandas ordenadas  
 [2021-12-03 21:52:50] local.INFO: Caminos generados  
 [2021-12-03 21:52:50] local.INFO: Resultados generados, imprimiendo  
+[2021-12-04 00:56:16] local.INFO: lectura de archivo iniciada  
+[2021-12-04 00:56:16] local.INFO: Punto 1: 10 6  
+[2021-12-04 00:56:16] local.INFO: Punto 2: -1 -96  
+[2021-12-04 00:56:16] local.INFO: Punto 3: 60 13  
+[2021-12-04 00:56:16] local.INFO: Punto 4: 20 300  
+[2021-12-04 00:56:16] local.INFO: cordenadas de c: -2 77  
+[2021-12-04 00:56:16] local.INFO: cordenadas de c: 5 48  
+[2021-12-04 00:56:16] local.INFO: cordenadas de c: 90 -759006  
+[2021-12-04 00:56:16] local.INFO: lectura de archivo iniciada  
+[2021-12-04 00:56:16] local.INFO: demandas: 1 1  
+[2021-12-04 00:56:16] local.INFO: cantidad de demanda: 230  
+[2021-12-04 00:56:16] local.INFO: demandas: 1 2  
+[2021-12-04 00:56:16] local.INFO: cantidad de demanda: 391  
+[2021-12-04 00:56:16] local.INFO: demandas: 3 1  
+[2021-12-04 00:56:16] local.INFO: cantidad de demanda: 21  
+[2021-12-04 00:56:16] local.INFO: Distancia calculada  
+[2021-12-04 00:56:16] local.INFO: Distancia calculada  
+[2021-12-04 00:56:16] local.INFO: Distancia calculada  
+[2021-12-04 00:56:16] local.INFO: Distancia calculada  
+[2021-12-04 00:56:16] local.INFO: Demandas ordenadas  
+[2021-12-04 00:56:16] local.INFO: Demandas separadas  
+[2021-12-04 00:56:16] local.INFO: Demandas ordenadas  
+[2021-12-04 00:56:16] local.INFO: Distancia calculada  
+[2021-12-04 00:56:16] local.INFO: Caminos generados  
+[2021-12-04 00:56:16] local.INFO: Demandas ordenadas  
+[2021-12-04 00:56:16] local.INFO: Caminos generados  
+[2021-12-04 00:56:16] local.INFO: Resultados generados, imprimiendo  

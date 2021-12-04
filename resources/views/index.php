@@ -42,7 +42,8 @@
         <p>
             Recuerde leer bien la informacion de los cuadros de abajo, una vez terminado de leer recuerde subir ambos archivos para un correcto funcionamiento.
         </p>
-        <form action="archivo.php" method="POST">
+        <form action="archivo" method="GET" enctype="multipart/form-data">
+             <?php @csrf ?>
             <p id = derecha>Archivo 1:</p>
             <input type="File" name="Archivo1">
             <br>
@@ -51,6 +52,7 @@
             <input type="File" name="Archivo2">
             <br><br><br>
             <input type="submit" name="btnsubir" value="Subir archivos">
+            
         </form>
 
     </div>
