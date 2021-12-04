@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/',[\App\Http\Controllers\Txtcontrolador::class, 'mform']);
 
 Route::get('/prueba',function() {
     return view('prueba');
 });
+
+Route::post('/hola', [\App\Http\Controllers\Txtcontrolador::class, 'mguardar']);

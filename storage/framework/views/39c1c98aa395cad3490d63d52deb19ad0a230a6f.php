@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
     <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,8 +41,8 @@
         <p>
             Recuerde leer bien la informacion de los cuadros de abajo, una vez terminado de leer recuerde subir ambos archivos para un correcto funcionamiento.
         </p>
-        <form action= "hola" method="post" enctype="multipart/form-data">
-            <input type = "hidden" name = "_token" value = "{{csrf_token ()}}" >
+        <form action="guardar" method="post" enctype="multipart/form-data">
+            <?php echo csrf_field(); ?>
             <p id = derecha>Archivo 1:</p>
             <input type="File" name="Archivo1">
             <br>
@@ -86,4 +85,5 @@
             </div>
         </div>
      </div>
-</html>
+
+<?php /**PATH C:\xampp\htdocs\Trabajofinal\resources\views/index.blade.php ENDPATH**/ ?>
