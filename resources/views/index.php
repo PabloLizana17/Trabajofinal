@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/icono.png"> 
-    </head>
-    <body>
-        <header>
-            <h1>Repositorio de Trabajos GyL</h1>
+    <link rel="shortcut icon" href="img/icono.png">
+</head>
+
+<body>
+    <header>
+        <section class="textos-header">
+
+            <h1>Grafos y Lenguajes Formales</h1>
             
-        </header>
-        <div class="menu">   
+
+        </section>
+
+    </header>
+    <div class="menu">
         <ul>
             <li><a href="https://github.com/PabloLizana17/TrabajoGyL">Trabajo 1</a></li>
             <li><a href="https://github.com/PabloLizana17/GyL2">Trabajo 2</a></li>
             <li><a href="https://github.com/PabloLizana17/Trabajo3">Trabajo 3</a></li>
             <li><a href="https://github.com/PabloLizana17/Trabajofinal">Trabajo Integral</a></li>
         </ul>
-        </div>
-        <div class="descripcion">
+    </div>
+    <div class="descripcion">
         <p>
-            <br>En la siguiente aplicac&iacute;on desarrollaremos una un sistema el cual se encarga de optimizar la ruta de reparto de una empresa, esta se encarga de minimizando las distancias
+            <br>En la siguiente aplicac&iacute;on desarrollaremos una un sistema el cual se encarga de optimizar la ruta
+            de reparto de una empresa, esta se encarga de minimizando las distancias
             totales (km) recorridos por todos los camiones diariamente.<br>
             Se debe considerar que: <br><br>
             <ul>
@@ -40,11 +48,12 @@
             </ul>
         </p>
         <p>
-            Recuerde leer bien la informacion de los cuadros de abajo, una vez terminado de leer recuerde subir ambos archivos para un correcto funcionamiento.
+            Recuerde leer bien la informacion de los cuadros de abajo, una vez terminado de leer recuerde subir ambos
+            archivos para un correcto funcionamiento.
         </p>
-        <form action= "hola" method="post" enctype="multipart/form-data">
-            <input type = "hidden" name = "_token" value = "{{csrf_token ()}}" >
-            <p id = derecha>Archivo 1:</p>
+        <form action="hola" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="_token" value="{{csrf_token ()}}">
+            <p id=derecha>Archivo 1:</p>
             <input type="File" name="Archivo1">
             <br>
             <br>
@@ -59,10 +68,12 @@
         <div class="izquierda">
             <div class="box">
                 <div id="texto">
-                    <p>En esta ventana es necesario subir el archivo (formato .txt) donde se especifican los puntos de partida "P" o "C", siendo "P" un
-                    punto de venta t "C" un centro de distribuc&iacute;on, luego de eso se debe acompa&ntilde;ar con un valor n&uacute;merico N (identificador n&uacute;merico), separado por un punto y coma (;),
-                    luego a&ntilde;adimos otro punto y coma (;), terminando con las cordenadas en X,Y.
-                    <br><br>Quedando de la siguiente manera P o C;N;X,Y. Abajo hay un ejemplo en detalle:</p>
+                    <p>En esta ventana es necesario subir el archivo (formato .txt) donde se especifican los puntos de
+                        partida "P" o "C", siendo "P" un
+                        punto de venta t "C" un centro de distribuc&iacute;on, luego de eso se debe acompa&ntilde;ar con
+                        un valor n&uacute;merico N (identificador n&uacute;merico), separado por un punto y coma (;),
+                        luego a&ntilde;adimos otro punto y coma (;), terminando con las cordenadas en X,Y.
+                        <br><br>Quedando de la siguiente manera P o C;N;X,Y. Abajo hay un ejemplo en detalle:</p>
                 </div>
                 <div id="foto">
                     <img src="img/Screenshot_11.png" alt="Ingreso de datos">
@@ -74,8 +85,11 @@
         <div class="derecha">
             <div class="box">
                 <div>
-                    <p>En esta ventana es necesario subir el archivo (formato .txt) donde se especifica, el centro de distribucion de partida (Por su n&uacute;mero identificador), luego se coloca un punto y coma (;) como separador, 
-                        se coloca el punto de venta (con su n&uacute;mero identificador), se vuelve a separar por un punto y coma (;), finalizando con la cantidad de productos a repartir.<br><br>
+                    <p>En esta ventana es necesario subir el archivo (formato .txt) donde se especifica, el centro de
+                        distribucion de partida (Por su n&uacute;mero identificador), luego se coloca un punto y coma
+                        (;) como separador,
+                        se coloca el punto de venta (con su n&uacute;mero identificador), se vuelve a separar por un
+                        punto y coma (;), finalizando con la cantidad de productos a repartir.<br><br>
                         Quedando de la siguiente manera: C;P;N. Abajo se muestra un ejemplo extendido.
                     </p>
                 </div>
@@ -85,5 +99,6 @@
 
             </div>
         </div>
-     </div>
+    </div>
+
 </html>

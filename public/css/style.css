@@ -2,19 +2,57 @@
 @import url(https://fonts.google.com/specimen/Fira+Code?query=fira);
 body{
     background-color: #CAE5E5;  /* Color de fondo */
+    font-family: 'open sans';
 }
 header{
     font-family: "fira code";   /* Letra y tamaño de letra del Header*/
     font-size: 100%;
+
+    width: 100%;
+    height: 200px;
+    background:  #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* si toco los colores puedo cambiarle la transparencia hla */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
     
 }
+
+header .textos-header{
+
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;      /*sirve si los textos de lheader se unen, los deja en columnas*/
+    text-align: center;
+
+}
+.textos-header h1{  /*sirve para que cada h1 tenga su persoanlizado*/
+    font-size: 100px;
+    text-decoration:underline;
+    color: rgb(0, 0, 0);
+
+}
+
+.textos-header h2{  /*sirve para que cada h2 tenga su persoanlizado*/
+    font-size: 50px;
+    
+    color: rgb(4, 36, 124);
+
+}
+
+
+
 a{
     font-family: "query code"; /* Esta de mas*/
     font-size: 100%;
 }
 .menu {
     width: 100%;
-    background-color: #4F5D6B; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
+    background-color: #1c5894; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
     font-family: "fira code";
     font-size: 100%;
 }
@@ -111,27 +149,30 @@ a{
     
 }
 .descripcion {
-    width: 2375px;
-    margin-left: 70px;
-    margin-right: 70px;
+    width: 1700px;
+    margin: auto;
     height: 600px;
     background-color: #9DBAD5;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION*/
-    border-radius: 25px;
+    border-radius: 100px;
     font-family: "fira code";
     font-size: 100%;
+    overflow:visible;
     
 }
 .descripcion p{
     
     margin-left: 30px;
     margin-right: 30px; /* cARACTERISTICAS DEL BOX ID DESCRIPCION DE LAS ETIQUETAS p*/
+    padding: 0px 0px 30px 15px; /*me separo los textos del main , osea P*/
+    font-weight: 300;
+    text-align: justify;
 
 }
 .descripcion input{
 
     margin-left: 70px;
     display: inline-block;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION DE LAS ETIQUETAS INpUT*/
-    float:left;
+    float: left;
 }
 #derecha{
     width: 400px;   /* RELLENO */

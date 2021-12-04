@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*sirve para colocarlo al borde*/
+
+
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+
+    padding: 60px 0; /*60 arribay abajo 60 px y de lados 0,entre secciones*/
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;     /*margen automatico*/
+    overflow:hidden;  /*esconde si algo se sale del contenedor*/
+
+}
+
+.titulo{
+    color:black;        /*color titulo*/
+    font-size: 30px;     /*tamaño del titulo*/
+    text-align: center; /*centra los titulos de cada seccion*/
+    margin-bottom: 60px; /*espacio entre el titulo y la imagen que la sigue*/
+
+
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background:  #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* si toco los colores puedo cambiarle la transparencia hla */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0; /*arriba 30 bajo 50 0abajo e izq*/
+
+}
+
+nav >a{  /*color del nav , son los botones de la derecha superior*/
+    color: white;
+    font-weight: 300; /*mas ligero*/
+    text-decoration: none;  /*subrayado */
+    margin-right: 10px; /*separa cada palabra*/ 
+}
+
+nav >a:hover {  /*cuando paso el mouse por el nav a*/
+    
+    text-decoration: underline;  /*subrayado */
+    
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;      /*sirve si los textos de lheader se unen, los deja en columnas*/
+    text-align: center;
+}
+
+.textos-header h1{  /*sirve para que cada h1 tenga su persoanlizado*/
+    font-size: 100px;
+    text-decoration:underline;
+    color: rgb(0, 0, 0);
+
+}
+
+.textos-header h2{  /*sirve para que cada h2 tenga su persoanlizado*/
+    font-size: 50px;
+    
+    color: rgb(4, 36, 124);
+
+}
+
+
+.wave{          /*acomoda el wave*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/*ABOUT US*/
+
+
+
+.contenedor-sobre-nosotros{
+
+    display:table;
+    justify-content: space-evenly; /*reparte el espacio equitivamente*/
+    
+
+
+}
+
+.imagen-about-us{
+
+    width: 80%;
+}
+
+.sobre-nosotros .contenido-textos{ /*sirve para ordenar el main */
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: rgb(196, 57, 15);
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    box-shadow: 0 0 6px rgba(0, 0,0, 0);
+    margin-right: 5px; /*aleja el texto del h3*/
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px; /*me separo los textos del main , osea P*/
+    font-weight: 300;
+    text-align: justify;
+    
+}
+
+/*Galeria*/
+
+.portafolio{
+    background: white;
+
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 50%;
+    margin-bottom: 100px;
+    overflow: visible;
+    position: left;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0,0, .5) ;
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273,91%,27%,0.7)
+
+}
+
+
+.contenedor-izquierda{
+    padding: 10px 0;
+    float: left;
+    color: hsla(273,91%,27%,0.7);
+    width: 300px;
+    margin: 50px;
+    
+}
+
+.contenedor-derecha{
+    padding: 10px 0;
+    float: right;
+    color: rgba(223, 19, 19, 0.7);
+    width: 300px;
+    margin: 50px;
+    
+}
+
+.contenedor-footer{
+    flex-direction: column;
+    border: none;
+}
+
+.content-foo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-foo h4{
+    border: none;
+}
+
+.content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.titulo-final{
+    font-size: 30px;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: #000000;
+    background: rgb(255, 255, 255);
+}
