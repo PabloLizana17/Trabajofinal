@@ -1,53 +1,53 @@
 @import url(https://fonts.google.com/specimen/M+PLUS+1+Code?query=code);
 @import url(https://fonts.google.com/specimen/Fira+Code?query=fira);
 body{
-    background-color: #CAE5E5;
+    background-color: #CAE5E5;  /* Color de fondo */
 }
 header{
-    font-family: "fira code";
+    font-family: "fira code";   /* Letra y tamaño de letra del Header*/
     font-size: 100%;
     
 }
 a{
-    font-family: "query code";
+    font-family: "query code"; /* Esta de mas*/
     font-size: 100%;
 }
 .menu {
     width: 100%;
-    background-color: #4F5D6B;
+    background-color: #4F5D6B; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
     font-family: "fira code";
     font-size: 100%;
 }
 .menu ul{
-    list-style: none;
+    list-style: none; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
     
 }
 .menu ul li{
-    display: inline-block;
+    display: inline-block; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
     
 }
 .menu ul li a{
     color: white;
     display: block;
-    padding: 20px 250px;
+    padding: 20px 250px;    /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
     text-decoration: none;  
     font-family: "fira code";
     font-size: 100%;
     
 }
 .menu ul li a:hover{
-    background-color:  #5D4F6B;
+    background-color:  #5D4F6B; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
 }
 .cuerpo {
     width: 100%;
-    font-family: "fira code";
+    font-family: "fira code"; /* tamaño del box grande de texto y fuente */ 
     font-size: 100%;
 }
 .izquierda {
     width: 45%;
     float: left;
     height: 500px;
-    background-color:	#9DBAD5;
+    background-color:	#9DBAD5;    /* cARACTERISTICAS DEL BOX IZQUIERDO PEQUENO*/
     border-radius: 25px;
     margin-top: 50px;
     margin-left: 70px;
@@ -56,7 +56,7 @@ a{
 }
 #centro{
     width: 4%;
-    float: left;
+    float: left; /* ESPACIO CENTRAL INVISIBLE PARA SEPARA LOS BOXES*/
     height: 1100px;
 
 }
@@ -65,40 +65,40 @@ a{
     width: 45%;
     float: left;
     background-color: 	#9DBAD5;
-    height: 500px;
+    height: 500px;                      /* cARACTERISTICAS DEL BOX DERECHO PEQUENO*/
     border-radius: 25px;
     margin-right: 70px;
     margin-top: 50px;
 }
 .derecha p{
-    margin-left: 30px;
+    margin-left: 30px;          /* cARACTERISTICAS DEL BOX DERECHO EN LAS EETIQUETAS P*/
     margin-top: 30px;
 }
 .derecha img{
     width: 45%;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 50px;        /* cARACTERISTICAS DEL BOX DERECHO EN LAS EETIQUETAS IMG*/
     float: left;
     
 }
 .derecha input{
     width: 400px;
-    margin-left: 110px;
+    margin-left: 110px;      /* cARACTERISTICAS DEL BOX DERECHO EN LAS EETIQUETAS INPUT*/
     margin-top: 135px;
 }
 .box {
-    display: inline-block;
+    display: inline-block;      /* RELLENO*/
     
 }
 .izquierda p{
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 30px;          
+    margin-top: 30px;       /* cARACTERISTICAS DEL BOX IZQUIERDO EN LAS EETIQUETAS P*/
     margin-right: 30px;
     
 }
 .izquierda img{
     width: 45%;
-    margin-left: 30px;
+    margin-left: 30px;          /* cARACTERISTICAS DEL BOX IZQUIERDO EN LAS EETIQUETAS IMG*/
     margin-top: 5px;
     float:left;
     
@@ -106,7 +106,7 @@ a{
 }
 .izquierda input{
     width: 400px;
-    margin-left: 110px;
+    margin-left: 110px;     /* cARACTERISTICAS DEL BOX IZQUIERDA EN LAS EETIQUETAS INPUT*/
     margin-top: 135px;
     
 }
@@ -115,7 +115,7 @@ a{
     margin-left: 70px;
     margin-right: 70px;
     height: 600px;
-    background-color: #9DBAD5;
+    background-color: #9DBAD5;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION*/
     border-radius: 25px;
     font-family: "fira code";
     font-size: 100%;
@@ -124,15 +124,15 @@ a{
 .descripcion p{
     
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 30px; /* cARACTERISTICAS DEL BOX ID DESCRIPCION DE LAS ETIQUETAS p*/
 
 }
 .descripcion input{
 
     margin-left: 70px;
-    display: inline-block;
+    display: inline-block;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION DE LAS ETIQUETAS INpUT*/
     float:left;
 }
 #derecha{
-    width: 400px;
+    width: 400px;   /* RELLENO */
 }

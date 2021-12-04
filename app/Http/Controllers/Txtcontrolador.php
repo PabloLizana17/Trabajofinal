@@ -4,14 +4,38 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use Illuminate\Foundation\Inspiring;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Log;
 class Txtcontrolador extends Controller
 {
     public function mform(){
+        Log::info("Inicio de sesion");
         return view('index');
     }
 
     public function mguardar(Request $request){
-        dd($request);
+        Log::info("Obtencion de archivos");
+        if($request->hasFile("Archivo1"))
+        {
+            Log::info("Archivo 1 ingresado correctamente");
+            $a=$request->file("Archivo1");
+        }
+        else
+        {
+            Log::info("Archivo 1 no ingresado");
+            print("a");
+        }
+        if($request->hasFile("Archivo2"))
+        {
+            Log::info("Archivo 2 ingresado correctamente");
+            $b=$request->file("Archivo2");
+        }
+        else
+        {
+            Log::info("Archivo 2 no ingresado");
+            print("b");
+        }
+        
     }
 }
