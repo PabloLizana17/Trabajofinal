@@ -4,8 +4,8 @@ body{
     background-color: #CAE5E5;  /* Color de fondo */
     font-family: 'open sans';
     background:  #bdc3c7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* si toco los colores puedo cambiarle la transparencia hla */
+    background: -webkit-linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img/portada.jpeg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img/portada.jpeg); /* si toco los colores puedo cambiarle la transparencia hla */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -13,10 +13,8 @@ body{
 header{
     font-family: "fira code";   /* Letra y tamaño de letra del Header*/
     font-size: 100%;
-
     width: 100%;
     height: 200px;
-    
     
 }
 
@@ -35,11 +33,7 @@ header .textos-header{
     font-size: 100px;
     text-decoration:underline;
     color: rgb(0, 0, 0);
-
 }
-
-
-
 
 a{
     font-family: "query code"; /* Esta de mas*/

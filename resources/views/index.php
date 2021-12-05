@@ -16,8 +16,6 @@
 
             <h1>Grafos y Lenguajes Formales</h1>
     
-            
-
         </section>
 
     </header>
@@ -32,9 +30,6 @@
     <div class="descripcion">
          <section class="textos-descripcion">
              <h2>Trabajo Integral</h2>
-
-
-
 
          </section>
         <p>  
@@ -110,7 +105,7 @@
     </div>
     <footer>
          
-         <div class="contacto-footer">Contacto</div>
+        <div class="contacto-footer">Contacto</div>
 
         <div class="contenedor-footer">
             <div class="content-foo">
@@ -121,7 +116,6 @@
                 <h4>Instagram</h4>
                 <p><a href="https://www.instagram.com/p.pl.01/?hl=es">Pablo Lizana</a></p>
             </div>
-            
             <div class="content-foo">
                 <h4>Instragram</h4>
                 <p><a href="https://www.instagram.com/hectorheck1/?hl=es">Hector Saldivia</a></p>
@@ -133,7 +127,7 @@
         </div>
         <h2 class="titulo-final">&copy; | Gatitos Infernales |</h2>
     </footer>
- <body>
+<body>
      
  
 </html>
