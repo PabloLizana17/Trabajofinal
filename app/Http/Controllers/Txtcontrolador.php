@@ -23,7 +23,7 @@ class Txtcontrolador extends Controller
             $a= $request->file("Archivo1");
             $nombre = "coordenadas.txt";
             $ruta = public_path($nombre);
-            if($a->guessExtension()=="csv")
+            if($a->guessExtension()=="csv" || $a->guessExtension()=="txt")
             {
                 Log::info("Su archivo es un documento de texto");
                 if(copy($a,$ruta))
@@ -51,7 +51,7 @@ class Txtcontrolador extends Controller
             $b=$request->file("Archivo2");
             $nombre = "demandas.txt";
             $ruta = public_path($nombre);
-            if($b->guessExtension()=="txt")
+            if($b->guessExtension()=="txt"|| $a->guessExtension()=="csv")
             {
                 Log::info("Su archivo es un documento de texto");
                 if(copy($b,$ruta))
