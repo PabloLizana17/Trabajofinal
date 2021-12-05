@@ -20,3 +20,7 @@ Route::get('/prueba',function() {
 });
 
 Route::post('/recepcion', [\App\Http\Controllers\Txtcontrolador::class, 'mguardar']);
+
+Route::get('/index2',function() {
+    return view('index2');
+});

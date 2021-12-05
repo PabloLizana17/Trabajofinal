@@ -10911,3 +10911,241 @@ esources\\views\\prueba.php(10): caminos(Array, Array)
 [2021-12-05 15:20:37] local.INFO: Demandas ordenadas  
 [2021-12-05 15:20:37] local.INFO: Caminos generados  
 [2021-12-05 15:20:37] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:23:26] local.INFO: Obtencion de archivos  
+[2021-12-05 15:23:26] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:23:26] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:23:26] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:23:26] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:23:26] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:23:26] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:23:26] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:23:26] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:23:26] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:23:26] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:23:26] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:23:26] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:23:26] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:23:26] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:23:26] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:23:26] local.INFO: demandas: 1 1  
+[2021-12-05 15:23:26] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:23:26] local.INFO: demandas: 1 2  
+[2021-12-05 15:23:26] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:23:26] local.INFO: demandas: 3 1  
+[2021-12-05 15:23:26] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:23:26] local.INFO: Distancia calculada  
+[2021-12-05 15:23:26] local.INFO: Distancia calculada  
+[2021-12-05 15:23:26] local.INFO: Distancia calculada  
+[2021-12-05 15:23:26] local.INFO: Distancia calculada  
+[2021-12-05 15:23:26] local.INFO: Demandas ordenadas  
+[2021-12-05 15:23:26] local.INFO: Demandas separadas  
+[2021-12-05 15:23:26] local.INFO: Demandas ordenadas  
+[2021-12-05 15:23:26] local.INFO: Distancia calculada  
+[2021-12-05 15:23:26] local.INFO: Caminos generados  
+[2021-12-05 15:23:26] local.INFO: Demandas ordenadas  
+[2021-12-05 15:23:26] local.INFO: Caminos generados  
+[2021-12-05 15:23:26] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:24:20] local.INFO: Obtencion de archivos  
+[2021-12-05 15:24:20] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:24:20] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:24:20] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:24:20] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:24:20] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:24:20] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:24:20] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:24:20] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:24:20] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:24:20] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:24:20] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:24:20] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:24:20] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:24:20] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:24:20] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:24:20] local.INFO: demandas: 1 1  
+[2021-12-05 15:24:20] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:24:20] local.INFO: demandas: 1 2  
+[2021-12-05 15:24:20] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:24:20] local.INFO: demandas: 3 1  
+[2021-12-05 15:24:20] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:24:20] local.INFO: Distancia calculada  
+[2021-12-05 15:24:20] local.INFO: Distancia calculada  
+[2021-12-05 15:24:20] local.INFO: Distancia calculada  
+[2021-12-05 15:24:20] local.INFO: Distancia calculada  
+[2021-12-05 15:24:20] local.INFO: Demandas ordenadas  
+[2021-12-05 15:24:20] local.INFO: Demandas separadas  
+[2021-12-05 15:24:20] local.INFO: Demandas ordenadas  
+[2021-12-05 15:24:20] local.INFO: Distancia calculada  
+[2021-12-05 15:24:20] local.INFO: Caminos generados  
+[2021-12-05 15:24:20] local.INFO: Demandas ordenadas  
+[2021-12-05 15:24:20] local.INFO: Caminos generados  
+[2021-12-05 15:24:20] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:24:48] local.INFO: Obtencion de archivos  
+[2021-12-05 15:24:48] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:24:48] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:24:48] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:24:48] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:24:48] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:24:48] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:24:48] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:24:48] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:24:48] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:24:48] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:24:48] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:24:48] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:24:48] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:24:48] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:24:48] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:24:48] local.INFO: demandas: 1 1  
+[2021-12-05 15:24:48] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:24:48] local.INFO: demandas: 1 2  
+[2021-12-05 15:24:48] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:24:48] local.INFO: demandas: 3 1  
+[2021-12-05 15:24:48] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:24:48] local.INFO: Distancia calculada  
+[2021-12-05 15:24:48] local.INFO: Distancia calculada  
+[2021-12-05 15:24:48] local.INFO: Distancia calculada  
+[2021-12-05 15:24:48] local.INFO: Distancia calculada  
+[2021-12-05 15:24:48] local.INFO: Demandas ordenadas  
+[2021-12-05 15:24:48] local.INFO: Demandas separadas  
+[2021-12-05 15:24:48] local.INFO: Demandas ordenadas  
+[2021-12-05 15:24:48] local.INFO: Distancia calculada  
+[2021-12-05 15:24:48] local.INFO: Caminos generados  
+[2021-12-05 15:24:48] local.INFO: Demandas ordenadas  
+[2021-12-05 15:24:48] local.INFO: Caminos generados  
+[2021-12-05 15:24:48] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:26:00] local.INFO: Obtencion de archivos  
+[2021-12-05 15:26:00] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:26:00] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:26:00] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:26:00] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:26:00] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:26:00] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:26:00] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:26:00] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:26:00] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:26:00] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:26:00] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:26:00] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:26:00] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:26:00] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:26:00] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:26:00] local.INFO: demandas: 1 1  
+[2021-12-05 15:26:00] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:26:00] local.INFO: demandas: 1 2  
+[2021-12-05 15:26:00] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:26:00] local.INFO: demandas: 3 1  
+[2021-12-05 15:26:00] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:26:00] local.INFO: Distancia calculada  
+[2021-12-05 15:26:00] local.INFO: Distancia calculada  
+[2021-12-05 15:26:00] local.INFO: Distancia calculada  
+[2021-12-05 15:26:00] local.INFO: Distancia calculada  
+[2021-12-05 15:26:00] local.INFO: Demandas ordenadas  
+[2021-12-05 15:26:00] local.INFO: Demandas separadas  
+[2021-12-05 15:26:00] local.INFO: Demandas ordenadas  
+[2021-12-05 15:26:00] local.INFO: Distancia calculada  
+[2021-12-05 15:26:00] local.INFO: Caminos generados  
+[2021-12-05 15:26:00] local.INFO: Demandas ordenadas  
+[2021-12-05 15:26:00] local.INFO: Caminos generados  
+[2021-12-05 15:26:00] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:26:41] local.INFO: Obtencion de archivos  
+[2021-12-05 15:26:41] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:26:41] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:26:41] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:26:41] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:26:41] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:26:41] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:26:41] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:26:41] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:26:41] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:26:41] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:26:41] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:26:41] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:26:41] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:26:41] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:26:41] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:26:41] local.INFO: demandas: 1 1  
+[2021-12-05 15:26:41] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:26:41] local.INFO: demandas: 1 2  
+[2021-12-05 15:26:41] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:26:41] local.INFO: demandas: 3 1  
+[2021-12-05 15:26:41] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:26:41] local.INFO: Distancia calculada  
+[2021-12-05 15:26:41] local.INFO: Distancia calculada  
+[2021-12-05 15:26:41] local.INFO: Distancia calculada  
+[2021-12-05 15:26:41] local.INFO: Distancia calculada  
+[2021-12-05 15:26:41] local.INFO: Demandas ordenadas  
+[2021-12-05 15:26:41] local.INFO: Demandas separadas  
+[2021-12-05 15:26:41] local.INFO: Demandas ordenadas  
+[2021-12-05 15:26:41] local.INFO: Distancia calculada  
+[2021-12-05 15:26:41] local.INFO: Caminos generados  
+[2021-12-05 15:26:41] local.INFO: Demandas ordenadas  
+[2021-12-05 15:26:41] local.INFO: Caminos generados  
+[2021-12-05 15:26:41] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:27:03] local.INFO: Obtencion de archivos  
+[2021-12-05 15:27:03] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:27:03] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:27:03] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:27:03] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:27:03] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:27:03] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:27:03] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:27:03] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:27:03] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:27:03] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:27:03] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:27:03] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:27:03] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:27:03] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:27:03] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:27:03] local.INFO: demandas: 1 1  
+[2021-12-05 15:27:03] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:27:03] local.INFO: demandas: 1 2  
+[2021-12-05 15:27:03] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:27:03] local.INFO: demandas: 3 1  
+[2021-12-05 15:27:03] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:27:03] local.INFO: Distancia calculada  
+[2021-12-05 15:27:03] local.INFO: Distancia calculada  
+[2021-12-05 15:27:03] local.INFO: Distancia calculada  
+[2021-12-05 15:27:03] local.INFO: Distancia calculada  
+[2021-12-05 15:27:03] local.INFO: Demandas ordenadas  
+[2021-12-05 15:27:03] local.INFO: Demandas separadas  
+[2021-12-05 15:27:03] local.INFO: Demandas ordenadas  
+[2021-12-05 15:27:03] local.INFO: Distancia calculada  
+[2021-12-05 15:27:03] local.INFO: Caminos generados  
+[2021-12-05 15:27:03] local.INFO: Demandas ordenadas  
+[2021-12-05 15:27:03] local.INFO: Caminos generados  
+[2021-12-05 15:27:03] local.INFO: Resultados generados, imprimiendo  
+[2021-12-05 15:27:19] local.INFO: Obtencion de archivos  
+[2021-12-05 15:27:19] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 15:27:19] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:27:19] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:27:19] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 15:27:19] local.INFO: Su archivo es un documento de texto  
+[2021-12-05 15:27:19] local.INFO: Documento de texto guardado correctamente  
+[2021-12-05 15:27:19] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:27:19] local.INFO: Punto 1: 10 6  
+[2021-12-05 15:27:19] local.INFO: Punto 2: -1 -96  
+[2021-12-05 15:27:19] local.INFO: Punto 3: 60 13  
+[2021-12-05 15:27:19] local.INFO: Punto 4: 20 300  
+[2021-12-05 15:27:19] local.INFO: cordenadas de c: -2 77  
+[2021-12-05 15:27:19] local.INFO: cordenadas de c: 5 48  
+[2021-12-05 15:27:19] local.INFO: cordenadas de c: 90 -7590068  
+[2021-12-05 15:27:19] local.INFO: lectura de archivo iniciada  
+[2021-12-05 15:27:19] local.INFO: demandas: 1 1  
+[2021-12-05 15:27:19] local.INFO: cantidad de demanda: 230  
+[2021-12-05 15:27:19] local.INFO: demandas: 1 2  
+[2021-12-05 15:27:19] local.INFO: cantidad de demanda: 391  
+[2021-12-05 15:27:19] local.INFO: demandas: 3 1  
+[2021-12-05 15:27:19] local.INFO: cantidad de demanda: 21  
+[2021-12-05 15:27:19] local.INFO: Distancia calculada  
+[2021-12-05 15:27:19] local.INFO: Distancia calculada  
+[2021-12-05 15:27:19] local.INFO: Distancia calculada  
+[2021-12-05 15:27:19] local.INFO: Distancia calculada  
+[2021-12-05 15:27:19] local.INFO: Demandas ordenadas  
+[2021-12-05 15:27:19] local.INFO: Demandas separadas  
+[2021-12-05 15:27:19] local.INFO: Demandas ordenadas  
+[2021-12-05 15:27:19] local.INFO: Distancia calculada  
+[2021-12-05 15:27:19] local.INFO: Caminos generados  
+[2021-12-05 15:27:19] local.INFO: Demandas ordenadas  
+[2021-12-05 15:27:19] local.INFO: Caminos generados  
+[2021-12-05 15:27:19] local.INFO: Resultados generados, imprimiendo  
