@@ -42,7 +42,6 @@
             <p>
                 <ul>
                     <?php 
-                    
                         $data = distribucion('coordenadas.txt');
                         $demanda = demandas('demandas.txt');
                         $distancia = distancia($data['p'][1],$data['c'][1]);
