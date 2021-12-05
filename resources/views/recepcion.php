@@ -35,17 +35,52 @@
         <section class="textos-descripcion">
             <h2>Trabajo Integral</h2>
 
-        </section>
+            <h3> Resultados: </h3>
 
-        <section>
-
-               <h3>Resultados:
             
-               </h3>
+
+        </section>
+
+        <section >
+            <p>
+                <ul>
+                     <?php 
+                    
+                    $data = distribucion('coordenadas.txt');
+                    $demanda = demandas('demandas.txt');
+                    $distancia = distancia($data['p'][1],$data['c'][1]);
+                    $demanda = ordenar($demanda,$data);
+                    $ordenar = separar($demanda,$data);
+                    $caminos = resultados($ordenar,$data);
+
+                      for($i=0; $i<sizeof($caminos);$i++)
+                      
+                        {
+                            $a=$i+1;
+                                printf("<br>");
+                                      echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face='fira code' size='5'>Camion: $a</font>";
+                                      printf("<br>");
+                                      $b= $caminos[$i];
+                                      echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face='fira code' size='5'>Camino: $b[escrito]</font>";
+                                      printf("<br>");
+                                      $c= $caminos[$i];
+                                      echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face='fira code' size='5'>Camino: $c[distancia]</font>";
+                                      printf("<br>");
+                                      $d= $caminos[$i];
+                                      echo "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font face='fira code' size='5'>Camino: $d[cantidad]</font>";
+                                printf("<br>");
+                                printf("<br>");
+                        }
+                            
+                    ?>  
+                </ul>
+            </p>
 
 
         </section>
-        
+
+
+
 
 
 

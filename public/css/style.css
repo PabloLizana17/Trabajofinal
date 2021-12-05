@@ -177,6 +177,16 @@ a{
     text-align: center;
     color: black;
     margin-top: 15px;
+    margin-left: 20px;
+
+}
+.textos-descripcion h3{
+
+    font-size: 30px;
+    
+    color: black;
+    margin-left: 100px;
+
 
 }
 
