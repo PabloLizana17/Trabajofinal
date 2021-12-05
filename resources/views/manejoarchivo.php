@@ -24,7 +24,7 @@
         $datos = array();
         Log::info("lectura de archivo iniciada");
         $data = lectura_archivo($archivo);
-        for($i=0 ; $i<sizeof($data) ; $i++)
+        for($i=0 ; $i<sizeof($data)-1 ; $i++)
         {
             if($data[$i][0]== "P" || $data[$i][0]== "p")
             {   

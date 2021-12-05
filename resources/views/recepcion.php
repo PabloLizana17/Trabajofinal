@@ -65,9 +65,10 @@
                             printf("<br>");
                             printf("<br>");
                         }
-                    ?>  
+                    ?>
                 </ul>
             </p>
+            <p> <a href="index2"><input type="button" value="Ir a inicio"></a></p>
         </section>
     </div>
     <footer>

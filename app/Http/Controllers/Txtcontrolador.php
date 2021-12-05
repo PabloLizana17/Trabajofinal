@@ -38,6 +38,7 @@ class Txtcontrolador extends Controller
             else
             {
                 Log::info("Su archivo no es documento de texto, vuelva a intentarlo");
+                return view('error');
             }
         }
         else
@@ -65,6 +66,7 @@ class Txtcontrolador extends Controller
             else
             {
                 Log::info("Su archivo no es documento de texto, vuelva a intentarlo");
+                return view('error');
             }
         }
         else
