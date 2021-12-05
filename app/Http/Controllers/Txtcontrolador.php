@@ -27,9 +27,13 @@ class Txtcontrolador extends Controller
             {
                 Log::info("Su archivo es un documento de texto");
                 if(copy($a,$ruta))
+                {
                     Log::info("Documento de texto guardado correctamente");
+                }
                 else
+                {
                     Log::info("Error al guardar documento");
+                }  
             }
             else
             {
@@ -50,9 +54,13 @@ class Txtcontrolador extends Controller
             {
                 Log::info("Su archivo es un documento de texto");
                 if(copy($b,$ruta))
+                {
                     Log::info("Documento de texto guardado correctamente");
+                }
                 else
+                {
                     Log::info("Error al guardar documento");
+                }
             }
             else
             {
