@@ -15,6 +15,7 @@
         <section class="textos-header">
 
             <h1>Grafos y Lenguajes Formales</h1>
+    
             
 
         </section>
@@ -25,11 +26,18 @@
             <li><a href="https://github.com/PabloLizana17/TrabajoGyL">Trabajo 1</a></li>
             <li><a href="https://github.com/PabloLizana17/GyL2">Trabajo 2</a></li>
             <li><a href="https://github.com/PabloLizana17/Trabajo3">Trabajo 3</a></li>
-            <li><a href="https://github.com/PabloLizana17/Trabajofinal">Trabajo Integral</a></li>
+            
         </ul>
     </div>
     <div class="descripcion">
-        <p>
+         <section class="textos-descripcion">
+             <h2>Trabajo Integral</h2>
+
+
+
+
+         </section>
+        <p>  
             <br>En la siguiente aplicac&iacute;on desarrollaremos una un sistema el cual se encarga de optimizar la ruta
             de reparto de una empresa, esta se encarga de minimizando las distancias
             totales (km) recorridos por todos los camiones diariamente.<br>
@@ -100,5 +108,18 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="contenedor-footer">
 
+            <div class="content-foo">
+                <h4>telefono</h4>
+                <p>12345567</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Gatitos Infernales </h2>
+
+    </footer>
+ <body>
+     
+ 
 </html>

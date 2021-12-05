@@ -3,6 +3,12 @@
 body{
     background-color: #CAE5E5;  /* Color de fondo */
     font-family: 'open sans';
+    background:  #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* si toco los colores puedo cambiarle la transparencia hla */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 header{
     font-family: "fira code";   /* Letra y tamaño de letra del Header*/
@@ -10,12 +16,7 @@ header{
 
     width: 100%;
     height: 200px;
-    background:  #bdc3c7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(204, 8%, 76%, 0.596), hsla(210, 29%, 24%, 0.603)),url(../img2/portada.jpg); /* si toco los colores puedo cambiarle la transparencia hla */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+    
     
 }
 
@@ -37,10 +38,10 @@ header .textos-header{
 
 }
 
-.textos-header h2{  /*sirve para que cada h2 tenga su persoanlizado*/
+.textos-descripcion h2{  /*sirve para que cada h2 tenga su persoanlizado*/
     font-size: 50px;
-    
-    color: rgb(4, 36, 124);
+    text-align: center;
+    color: black;
 
 }
 
@@ -52,9 +53,13 @@ a{
 }
 .menu {
     width: 100%;
-    background-color: #1c5894; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
     font-family: "fira code";
     font-size: 100%;
+    text-align: justify;
+    margin: auto;
+    display: flex;
+    text-align: center; 
+    
 }
 .menu ul{
     list-style: none; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
@@ -62,6 +67,8 @@ a{
 }
 .menu ul li{
     display: inline-block; /*cdetalles de la etiqueta Nav la wea de los repos de git*/ 
+    background: #544a7d;
+    
     
 }
 .menu ul li a{
@@ -80,6 +87,7 @@ a{
     width: 100%;
     font-family: "fira code"; /* tamaño del box grande de texto y fuente */ 
     font-size: 100%;
+    overflow: hidden;
 }
 .izquierda {
     width: 45%;
@@ -88,7 +96,7 @@ a{
     background-color:	#9DBAD5;    /* cARACTERISTICAS DEL BOX IZQUIERDO PEQUENO*/
     border-radius: 25px;
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 75px;
     
 
 }
@@ -105,12 +113,15 @@ a{
     background-color: 	#9DBAD5;
     height: 500px;                      /* cARACTERISTICAS DEL BOX DERECHO PEQUENO*/
     border-radius: 25px;
-    margin-right: 70px;
+    margin: auto;
     margin-top: 50px;
 }
 .derecha p{
-    margin-left: 30px;          /* cARACTERISTICAS DEL BOX DERECHO EN LAS EETIQUETAS P*/
-    margin-top: 30px;
+    margin: 30px 30px 30px 30px;
+    font-family: "fira code";
+    font-size: 110%;
+    text-align: justify;
+
 }
 .derecha img{
     width: 45%;
@@ -132,6 +143,9 @@ a{
     margin-left: 30px;          
     margin-top: 30px;       /* cARACTERISTICAS DEL BOX IZQUIERDO EN LAS EETIQUETAS P*/
     margin-right: 30px;
+    font-family: "fira code";
+    font-size: 110%;
+    text-align: justify;
     
 }
 .izquierda img{
@@ -148,14 +162,19 @@ a{
     margin-top: 135px;
     
 }
+
+
+
 .descripcion {
     width: 1700px;
     margin: auto;
-    height: 600px;
-    background-color: #9DBAD5;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION*/
+    margin-top: 10px;
+    padding: 60px 0;
+    height: 800px;
+    background-color: #1CB5E0;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION*/
     border-radius: 100px;
     font-family: "fira code";
-    font-size: 100%;
+    font-size: 110%;
     overflow:visible;
     
 }
@@ -166,6 +185,7 @@ a{
     padding: 0px 0px 30px 15px; /*me separo los textos del main , osea P*/
     font-weight: 300;
     text-align: justify;
+    
 
 }
 .descripcion input{
@@ -176,4 +196,34 @@ a{
 }
 #derecha{
     width: 400px;   /* RELLENO */
+}
+
+
+.contenedor-footer{
+    flex-direction: column;
+    border: none;
+}
+
+.content-foo{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content-foo h4{
+    border: none;
+}
+
+.content-foo p{
+    color: #ccc;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.titulo-final{
+    font-size: 30px;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: #000000;
+    background: rgb(255, 255, 255);
 }
