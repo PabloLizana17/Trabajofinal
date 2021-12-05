@@ -37,69 +37,39 @@
 
             <h3> Resultados: </h3>
 
-            
-
         </section>
-
         <section >
             <p>
                 <ul>
-                     <?php 
+                    <?php 
                     
-                    $data = distribucion('coordenadas.txt');
-                    $demanda = demandas('demandas.txt');
-                    $distancia = distancia($data['p'][1],$data['c'][1]);
-                    $demanda = ordenar($demanda,$data);
-                    $ordenar = separar($demanda,$data);
-                    $caminos = resultados($ordenar,$data);
+                        $data = distribucion('coordenadas.txt');
+                        $demanda = demandas('demandas.txt');
+                        $distancia = distancia($data['p'][1],$data['c'][1]);
+                        $demanda = ordenar($demanda,$data);
+                        $ordenar = separar($demanda,$data);
+                        $caminos = resultados($ordenar,$data);
 
-                      for($i=0; $i<sizeof($caminos);$i++)
-                      
+                        for($i=0; $i<sizeof($caminos);$i++)
                         {
                             $a=$i+1;
-                                printf("<br>");
-                                echo "<center><font face='fira code' size='5'>Camion: $a</font><center>";
-                                       
-                                       $b= $caminos[$i];
-    echo "<font face='fira code' size='5'>Camino: $b[escrito]</font>";
-    printf("<br>");
-    $c= $caminos[$i];
-    echo "<font face='fira code' size='5'>Camino: $c[distancia]</font>";
-    printf("<br>");
-    $d= $caminos[$i];
-    echo "<font face='fira code' size='5'>Camino: $d[cantidad]</font>";
-    printf("<br>");
-    printf("<br>");
+                            printf("<br>");
+                            echo "<center><font face='fira code' size='5'>Camion: $a</font><center>";               
+                            $b= $caminos[$i];
+                            echo "<font face='fira code' size='5'>Camino: $b[escrito]</font>";
+                            printf("<br>");
+                            $c= $caminos[$i];
+                            echo "<font face='fira code' size='5'>Camino: $c[distancia]</font>";
+                            printf("<br>");
+                            $d= $caminos[$i];
+                            echo "<font face='fira code' size='5'>Camino: $d[cantidad]</font>";
+                            printf("<br>");
+                            printf("<br>");
                         }
-                            
                     ?>  
                 </ul>
             </p>
-
-
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
     <footer>
 
