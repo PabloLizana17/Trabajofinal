@@ -8431,3 +8431,18 @@ esources\\views\\prueba.php(10): caminos(Array, Array)
 [2021-12-05 01:04:24] local.INFO: Inicio de sesion  
 [2021-12-05 01:04:27] local.INFO: Inicio de sesion  
 [2021-12-05 01:05:05] local.INFO: Inicio de sesion  
+[2021-12-05 01:07:11] local.INFO: Inicio de sesion  
+[2021-12-05 01:09:39] local.INFO: Inicio de sesion  
+[2021-12-05 01:09:49] local.INFO: Obtencion de archivos  
+[2021-12-05 01:09:49] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 01:09:49] local.INFO: Su archivo no es documento de texto, vuelva a intentarlo  
+[2021-12-05 01:09:49] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 01:09:49] local.INFO: Su archivo no es documento de texto, vuelva a intentarlo  
+[2021-12-05 01:10:13] local.INFO: Inicio de sesion  
+[2021-12-05 01:11:07] local.INFO: Inicio de sesion  
+[2021-12-05 01:14:57] local.INFO: Inicio de sesion  
+[2021-12-05 01:15:01] local.INFO: Obtencion de archivos  
+[2021-12-05 01:15:01] local.INFO: Archivo 1 ingresado correctamente  
+[2021-12-05 01:15:01] local.INFO: Su archivo no es documento de texto, vuelva a intentarlo  
+[2021-12-05 01:15:01] local.INFO: Archivo 2 ingresado correctamente  
+[2021-12-05 01:15:01] local.INFO: Su archivo no es documento de texto, vuelva a intentarlo  

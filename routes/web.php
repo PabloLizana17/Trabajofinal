@@ -19,4 +19,4 @@ Route::get('/prueba',function() {
     return view('prueba');
 });
 
-Route::post('/hola', [\App\Http\Controllers\Txtcontrolador::class, 'mguardar']);
+Route::post('/recepcion', [\App\Http\Controllers\Txtcontrolador::class, 'mguardar']);

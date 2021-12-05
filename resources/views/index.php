@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trabajo Integral</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/icono.png">
 </head>
@@ -59,7 +59,7 @@
             Recuerde leer bien la informacion de los cuadros de abajo, una vez terminado de leer recuerde subir ambos
             archivos para un correcto funcionamiento.
         </p>
-        <form action="hola" method="post" enctype="multipart/form-data">
+        <form action="recepcion" method="post" enctype="multipart/form-data">
             <input type="hidden" name="_token" value="{{csrf_token ()}}">
             <p id=derecha>Archivo 1:</p>
             <input type="File" name="Archivo1">
@@ -111,9 +111,6 @@
     <footer>
          
          <div class="contacto-footer">Contacto</div>
-
-
-
 
         <div class="contenedor-footer">
             <div class="content-foo">

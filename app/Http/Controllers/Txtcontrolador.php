@@ -23,8 +23,6 @@ class Txtcontrolador extends Controller
             $a= $request->file("Archivo1");
             $nombre = "coordenadas.txt";
             $ruta = public_path($nombre);
-            print_r($a);
-            var_dump($a->guessExtension());
             if($a->guessExtension()=="txt")
             {
                 Log::info("Su archivo es un documento de texto");
@@ -65,6 +63,6 @@ class Txtcontrolador extends Controller
         {
             Log::info("Archivo 2 no ingresado");
         }
-        
+        return view('recepcion');
     }
 }
