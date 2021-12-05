@@ -184,6 +184,13 @@ a{
 
 }
 
+.boton-descripcion{
+    text-align: center;
+}
+.boton-descripcion a{
+    text-align: center;
+}
+
 .descripcion p{
     
     margin-left: 30px;

@@ -68,7 +68,9 @@
                     ?>
                 </ul>
             </p>
-            <p><center><a href="index2"><input type="button" value="Ir a inicio"></a> </center> </p>
+        </section>
+        <section class="boton-descripcion">
+            <a href="index2"><input type="button" value="Ir a inicio"></a> 
         </section>
     </div>
     <footer>
