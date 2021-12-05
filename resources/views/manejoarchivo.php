@@ -103,7 +103,7 @@
         log::info("lectura de archivo iniciada");
         $datos = array();
         $data = lectura_archivo($archivo);
-        for($i=0 ; $i<sizeof($data) ; $i++)
+        for($i=0 ; $i<sizeof($data)-1 ; $i++)
         {
             $cont = 0;
             $numero = '';
