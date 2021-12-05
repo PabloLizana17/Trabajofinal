@@ -38,12 +38,6 @@ header .textos-header{
 
 }
 
-.textos-descripcion h2{  /*sirve para que cada h2 tenga su persoanlizado*/
-    font-size: 50px;
-    text-align: center;
-    color: black;
-
-}
 
 
 
@@ -178,6 +172,14 @@ a{
     overflow:visible;
     
 }
+.textos-descripcion h2{  /*sirve para que cada h2 tenga su persoanlizado*/
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+
+}
+
 .descripcion p{
     
     margin-left: 30px;
@@ -192,7 +194,7 @@ a{
 
     margin-left: 70px;
     display: inline-block;  /* cARACTERISTICAS DEL BOX ID DESCRIPCION DE LAS ETIQUETAS INpUT*/
-    float: left;
+    
 }
 #derecha{
     width: 400px;   /* RELLENO */
@@ -200,8 +202,12 @@ a{
 
 
 .contenedor-footer{
-    flex-direction: column;
-    border: none;
+    
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 .content-foo{
@@ -211,12 +217,17 @@ a{
 
 .content-foo h4{
     border: none;
+    font-size: 20px;
 }
 
 .content-foo p{
     color: #ccc;
     border-bottom: 1px solid #f2f2f2;
     padding-bottom: 20px;
+    font-size: 20px;
+}
+.content-foo a{
+    color: #ffd452;
 }
 
 .titulo-final{
@@ -226,4 +237,12 @@ a{
     margin: 20px;
     color: #000000;
     background: rgb(255, 255, 255);
+}
+
+.contacto-footer{
+    text-align: center;
+    font-size: 50px;
+    font-family: "fira code";
+    text-decoration: underline;
+
 }

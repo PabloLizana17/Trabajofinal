@@ -200,7 +200,7 @@ header .textos-header{
 }
 
 .contenedor-footer{
-    flex-direction: column;
+    flex-direction: row;
     border: none;
 }
 

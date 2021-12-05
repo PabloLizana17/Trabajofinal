@@ -109,15 +109,32 @@
         </div>
     </div>
     <footer>
-        <div class="contenedor-footer">
+         
+         <div class="contacto-footer">Contacto</div>
 
+
+
+
+        <div class="contenedor-footer">
             <div class="content-foo">
-                <h4>telefono</h4>
-                <p>12345567</p>
+                <h4>Instragram</h4>
+                <p><a href="https://www.instagram.com/losted_primaveral/?hl=es">Henry Huanquilen</a></p>
+            </div>
+            <div class="content-foo">
+                <h4>Instagram</h4>
+                <p><a href="https://www.instagram.com/p.pl.01/?hl=es">Pablo Lizana</a></p>
+            </div>
+            
+            <div class="content-foo">
+                <h4>Instragram</h4>
+                <p><a href="https://www.instagram.com/hectorheck1/?hl=es">Hector Saldivia</a></p>
+            </div>
+            <div class="content-foo">
+                <h4>Instagram</h4>
+                <p><a href="https://www.instagram.com/lil_cmarxnin/?hl=es">Vicente Velasquez</a></p>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; Gatitos Infernales </h2>
-
+        <h2 class="titulo-final">&copy; | Gatitos Infernales |</h2>
     </footer>
  <body>
      
